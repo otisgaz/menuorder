@@ -1,0 +1,508 @@
+`
+### WordPress Environment ###
+
+WordPress address (URL): https://www.armedandgorgeous.com
+Site address (URL): https://www.armedandgorgeous.com
+WC Version: 7.5.1
+REST API Version: ✔ 7.5.1
+WC Blocks Version: ✔ 9.6.6
+Action Scheduler Version: ✔ 3.5.4
+Log Directory Writable: ✔
+WP Version: ❌ 6.1.1 - There is a newer version of WordPress available (6.2)
+WP Multisite: –
+WP Memory Limit: 512 MB
+WP Debug Mode: –
+WP Cron: ✔
+Language: en_US
+External object cache: –
+
+### Server Environment ###
+
+Server Info: nginx/1.19.10
+PHP Version: 8.0.3
+PHP Post Max Size: 256 MB
+PHP Time Limit: 300
+PHP Max Input Vars: 3000
+cURL Version: 7.68.0
+OpenSSL/1.1.1f
+
+SUHOSIN Installed: –
+MySQL Version: 5.5.5-10.4.14-MariaDB-1:10.4.14+maria~focal
+Max Upload Size: 256 MB
+Default Timezone is UTC: ✔
+fsockopen/cURL: ✔
+SoapClient: ✔
+DOMDocument: ✔
+GZip: ✔
+Multibyte String: ✔
+Remote Post: ✔
+Remote Get: ✔
+
+### Database ###
+
+WC Database Version: 7.4.1
+WC Database Prefix: wp_
+Total Database Size: 540.17MB
+Database Data Size: 451.51MB
+Database Index Size: 88.66MB
+wp_woocommerce_sessions: Data: 2.02MB + Index: 0.02MB + Engine InnoDB
+wp_woocommerce_api_keys: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+wp_woocommerce_attribute_taxonomies: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+wp_woocommerce_downloadable_product_permissions: Data: 0.02MB + Index: 0.17MB + Engine InnoDB
+wp_woocommerce_order_items: Data: 1.52MB + Index: 0.63MB + Engine InnoDB
+wp_woocommerce_order_itemmeta: Data: 14.52MB + Index: 10.55MB + Engine InnoDB
+wp_woocommerce_tax_rates: Data: 0.02MB + Index: 0.08MB + Engine InnoDB
+wp_woocommerce_tax_rate_locations: Data: 0.02MB + Index: 0.06MB + Engine InnoDB
+wp_woocommerce_shipping_zones: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_woocommerce_shipping_zone_locations: Data: 0.02MB + Index: 0.05MB + Engine InnoDB
+wp_woocommerce_shipping_zone_methods: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_woocommerce_payment_tokens: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+wp_woocommerce_payment_tokenmeta: Data: 0.02MB + Index: 0.05MB + Engine InnoDB
+wp_woocommerce_log: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+woof_query_cache: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_actionscheduler_actions: Data: 5.02MB + Index: 5.05MB + Engine InnoDB
+wp_actionscheduler_claims: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+wp_actionscheduler_groups: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+wp_actionscheduler_logs: Data: 5.02MB + Index: 4.03MB + Engine InnoDB
+wp_admin_columns: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+wp_adtribes_my_conversions: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+wp_berocket_termmeta: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_commentmeta: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+wp_comments: Data: 4.52MB + Index: 3.14MB + Engine InnoDB
+wp_ee_products_sync_list: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_ee_product_sync_call: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_ee_product_sync_data: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_ee_product_sync_profile: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_ee_prouct_pre_sync_data: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_ewwwio_images: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+wp_ewwwio_queue: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+wp_e_events: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+wp_e_notes: Data: 0.02MB + Index: 0.17MB + Engine InnoDB
+wp_e_notes_users_relations: Data: 0.02MB + Index: 0.05MB + Engine InnoDB
+wp_e_submissions: Data: 0.02MB + Index: 0.27MB + Engine InnoDB
+wp_e_submissions_actions_log: Data: 0.02MB + Index: 0.11MB + Engine InnoDB
+wp_e_submissions_values: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+wp_gdpr_cc_options: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_grp_google_place: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+wp_grp_google_review: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+wp_links: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+wp_mailchimp_carts: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_mailchimp_jobs: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_options: Data: 25.23MB + Index: 2.27MB + Engine InnoDB
+wp_pimwick_gift_card: Data: 0.06MB + Index: 0.02MB + Engine InnoDB
+wp_pimwick_gift_card_activity: Data: 0.06MB + Index: 0.02MB + Engine InnoDB
+wp_postmeta: Data: 105.53MB + Index: 40.80MB + Engine InnoDB
+wp_posts: Data: 42.27MB + Index: 6.48MB + Engine InnoDB
+wp_sbi_feeds: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+wp_sbi_feed_caches: Data: 0.17MB + Index: 0.02MB + Engine InnoDB
+wp_sbi_instagram_feeds_posts: Data: 0.05MB + Index: 0.03MB + Engine InnoDB
+wp_sbi_instagram_feed_locator: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+wp_sbi_instagram_posts: Data: 1.44MB + Index: 0.00MB + Engine InnoDB
+wp_sbi_sources: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+wp_sfa_abandoned_carts: Data: 3.52MB + Index: 0.00MB + Engine InnoDB
+wp_shortpixel_folders: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+wp_shortpixel_meta: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+wp_smush_dir_images: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+wp_snippets: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_taxonomymeta: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+wp_termmeta: Data: 0.20MB + Index: 0.25MB + Engine InnoDB
+wp_terms: Data: 0.06MB + Index: 0.03MB + Engine InnoDB
+wp_term_relationships: Data: 2.34MB + Index: 1.27MB + Engine InnoDB
+wp_term_taxonomy: Data: 0.11MB + Index: 0.06MB + Engine InnoDB
+wp_tinvwl_items: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_tinvwl_lists: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_tm_taskmeta: Data: 0.33MB + Index: 0.13MB + Engine InnoDB
+wp_tm_tasks: Data: 0.28MB + Index: 0.05MB + Engine InnoDB
+wp_trustindex_google_reviews: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_usermeta: Data: 0.22MB + Index: 0.14MB + Engine InnoDB
+wp_users: Data: 0.02MB + Index: 0.05MB + Engine InnoDB
+wp_wcpdf_invoice_number: Data: 0.14MB + Index: 0.00MB + Engine InnoDB
+wp_wcpdf_packing_slip_number: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_wc_admin_notes: Data: 0.05MB + Index: 0.00MB + Engine InnoDB
+wp_wc_admin_note_actions: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+wp_wc_category_lookup: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_wc_customer_lookup: Data: 0.33MB + Index: 0.25MB + Engine InnoDB
+wp_wc_download_log: Data: 0.02MB + Index: 0.05MB + Engine InnoDB
+wp_wc_order_coupon_lookup: Data: 0.09MB + Index: 0.11MB + Engine InnoDB
+wp_wc_order_product_lookup: Data: 1.52MB + Index: 1.08MB + Engine InnoDB
+wp_wc_order_stats: Data: 0.44MB + Index: 0.59MB + Engine InnoDB
+wp_wc_order_tax_lookup: Data: 0.22MB + Index: 0.17MB + Engine InnoDB
+wp_wc_product_attributes_lookup: Data: 1.22MB + Index: 0.42MB + Engine InnoDB
+wp_wc_product_download_directories: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+wp_wc_product_meta_lookup: Data: 1.47MB + Index: 1.20MB + Engine InnoDB
+wp_wc_rate_limits: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+wp_wc_reserved_stock: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_wc_tax_rate_classes: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+wp_wc_webhooks: Data: 0.02MB + Index: 0.03MB + Engine InnoDB
+wp_wpforms_tasks_meta: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_wpf_filters: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_wpmailsmtp_debug_events: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_wpmailsmtp_tasks_meta: Data: 0.02MB + Index: 0.00MB + Engine InnoDB
+wp_wpml_mails: Data: 211.06MB + Index: 0.00MB + Engine InnoDB
+wp_wpr_rocket_cache: Data: 1.45MB + Index: 0.59MB + Engine InnoDB
+wp_wpr_rucss_used_css: Data: 0.02MB + Index: 0.11MB + Engine InnoDB
+wp_xsg_sitemap_meta: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+wp_yoast_indexable: Data: 15.05MB + Index: 6.56MB + Engine InnoDB
+wp_yoast_indexable_hierarchy: Data: 1.11MB + Index: 0.27MB + Engine InnoDB
+wp_yoast_migrations: Data: 0.02MB + Index: 0.02MB + Engine InnoDB
+wp_yoast_primary_term: Data: 0.27MB + Index: 0.27MB + Engine InnoDB
+wp_yoast_seo_links: Data: 1.30MB + Index: 0.23MB + Engine InnoDB
+
+### Post Type Counts ###
+
+acoplw_badges: 1
+attachment: 11634
+br_product_filter: 13
+customize_changeset: 4
+custom_css: 2
+easyimageslider: 1
+elementor_library: 2
+html_block: 17
+mc4wp-form: 2
+nav_menu_item: 163
+oembed_cache: 3
+page: 41
+post: 1
+product: 3068
+product_variation: 1509
+responsive_slider: 1
+revision: 2282
+shop_coupon: 18
+shop_order: 3688
+shop_order_refund: 321
+sl-insta-account: 1
+sl-insta-feed: 1
+sl-insta-media: 457
+wpcf7_contact_form: 1
+wpcode: 2
+wp_global_styles: 2
+
+### Security ###
+
+Secure connection (HTTPS): ✔
+Hide errors from visitors: ✔
+
+### Active Plugins (37) ###
+
+Async JavaScript: by Frank Goossens (futtta) – 2.21.08.31
+Contact Form 7: by Takayuki Miyoshi – 5.6.4
+GTM4WP: by Thomas Geiger – 1.16.2
+Elementor Pro: by Elementor.com – 3.7.5
+Elementor: by Elementor.com – 3.7.8
+Facebook for WooCommerce: by Facebook – 3.0.16
+GDPR Cookie Compliance: by Moove Agency – 4.10.6
+Font Icons Loader: by parkofideas.com – 1.8
+Goldish Core: by parkofideas.com – 3.3
+Import and export users and customers: by codection – 1.21.4
+WPCode Lite: by WPCode – 2.0.6
+Smash Balloon Instagram Feed: by Smash Balloon – 6.1.3
+Klarna On-Site Messaging for WooCommerce: by krokedil
+klarna – 1.3.1
+
+Klarna Order Management for WooCommerce: by klarna
+krokedil – 1.7.0
+
+Klarna Payments for WooCommerce: by krokedil
+klarna
+automattic – 2.12.1
+
+Klaviyo: by Klaviyo
+Inc. – 3.0.11
+
+Meta Box: by MetaBox.io – 5.6.7
+PixelYourSite Pinterest: by PixelYourSite – 4.1.0
+PixelYourSite: by PixelYourSite – 9.2.2
+Product Sales Report for WooCommerce: by WP Zone – 1.5.2
+PW WooCommerce Gift Cards Pro: by Pimwick
+LLC – 1.426
+
+Abandoned Cart Reports For WooCommerce: by Small Fish Analytics – 2.6.3
+CTX Feed: by WebAppick – 5.3.3
+WebP Express: by Bjørn Rosell – 0.25.5
+Product Feed PRO for WooCommerce: by AdTribes.io – 12.0.4
+Payment Plugins for Stripe WooCommerce: by Payment Plugins
+support@paymentplugins.com – 3.3.39
+
+Variation Swatches for WooCommerce: by Emran Ahmed – 2.0.18
+WooCommerce Print Address Labels: by WP Overnight – 2.0.0
+WooCommerce Extended Coupon Features PRO: by Soft79 – 3.3.2
+PDF Invoices & Packing Slips for WooCommerce: by WP Overnight – 3.4.0
+WooCommerce: by Automattic – 7.5.1
+Yoast SEO: by Team Yoast – 20.4
+Super Page Cache for Cloudflare: by Optimole – 4.7.3
+WP Mail Logging: by WP Mail Logging Team – 1.11.0
+WP Mail SMTP: by WPForms – 3.7.0
+Widgets for Google Reviews: by Trustindex.io  – 9.8
+WP Rocket: by WP Media – 3.12.4
+
+### Inactive Plugins (3) ###
+
+Cool Timelline: by Cool Plugins – 2.3.3
+Simple Dimple: by Cool Plugins – 2.3.3
+Tidio Chat: by Tidio Ltd. – 6.0.2
+
+### Dropin Plugins (1) ###
+
+advanced-cache.php: advanced-cache.php
+
+### Settings ###
+
+API Enabled: ✔
+Force SSL: –
+Currency: GBP (£)
+Currency Position: left
+Thousand Separator: ,
+Decimal Separator: .
+Number of Decimals: 2
+Taxonomies: Product Types: external (external)
+grouped (grouped)
+pw gift card (pw-gift-card)
+simple (simple)
+variable (variable)
+
+Taxonomies: Product Visibility: exclude-from-catalog (exclude-from-catalog)
+exclude-from-search (exclude-from-search)
+featured (featured)
+outofstock (outofstock)
+rated-1 (rated-1)
+rated-2 (rated-2)
+rated-3 (rated-3)
+rated-4 (rated-4)
+rated-5 (rated-5)
+
+Connected to WooCommerce.com: –
+Enforce Approved Product Download Directories: –
+Order datastore: WC_Order_Data_Store_CPT
+
+### WC Pages ###
+
+Shop base: #7 - /shop/
+Cart: #8 - /cart/
+Checkout: #9 - /checkout/
+My account: #10 - /my-account/
+Terms and conditions: #6139 - /privacy-and-cookies-policy/
+
+### Theme ###
+
+Name: Goldish
+Version: 3.3
+Author URL: https://parkofideas.com
+Child Theme: ❌ – If you are modifying WooCommerce on a parent theme that you did not build personally we recommend using a child theme. See: How to create a child theme
+WooCommerce Support: ✔
+
+### Templates ###
+
+Overrides: goldish/woocommerce/archive-product.php
+goldish/woocommerce/cart/cart-empty.php version 3.5.0 is out of date. The core version is 7.0.1
+goldish/woocommerce/cart/cart-shipping.php version 3.6.0 is out of date. The core version is 7.3.0
+goldish/woocommerce/cart/cart-totals.php
+goldish/woocommerce/cart/cart.php version 3.8.0 is out of date. The core version is 7.4.0
+goldish/woocommerce/cart/cross-sells.php
+goldish/woocommerce/cart/mini-cart.php
+goldish/woocommerce/cart/proceed-to-checkout-button.php version 2.4.0 is out of date. The core version is 7.0.1
+goldish/woocommerce/cart/shipping-calculator.php version 4.0.0 is out of date. The core version is 7.0.1
+goldish/woocommerce/checkout/form-billing.php
+goldish/woocommerce/checkout/form-checkout.php
+goldish/woocommerce/checkout/form-coupon.php version 3.4.4 is out of date. The core version is 7.0.1
+goldish/woocommerce/checkout/form-pay.php version 5.2.0 is out of date. The core version is 7.0.1
+goldish/woocommerce/checkout/form-shipping.php
+goldish/woocommerce/checkout/payment-method.php
+goldish/woocommerce/checkout/payment.php version 3.5.3 is out of date. The core version is 7.0.1
+goldish/woocommerce/checkout/review-order.php
+goldish/woocommerce/checkout/terms.php
+goldish/woocommerce/checkout/thankyou.php
+goldish/woocommerce/content-product-cat.php
+goldish/woocommerce/content-product.php
+goldish/woocommerce/content-widget-product.php
+goldish/woocommerce/global/breadcrumb.php
+goldish/woocommerce/global/form-login.php version 3.6.0 is out of date. The core version is 7.0.1
+goldish/woocommerce/global/quantity-input.php version 4.0.0 is out of date. The core version is 7.4.0
+goldish/woocommerce/global/sidebar.php
+goldish/woocommerce/global/wrapper-end.php
+goldish/woocommerce/global/wrapper-start.php
+goldish/woocommerce/loop/loop-end.php
+goldish/woocommerce/loop/loop-start.php
+goldish/woocommerce/loop/sale-flash.php
+goldish/woocommerce/myaccount/dashboard.php
+goldish/woocommerce/myaccount/downloads.php
+goldish/woocommerce/myaccount/form-login.php version 6.0.0 is out of date. The core version is 7.0.1
+goldish/woocommerce/myaccount/my-account.php
+goldish/woocommerce/myaccount/navigation.php
+goldish/woocommerce/myaccount/orders.php version 3.7.0 is out of date. The core version is 7.0.1
+goldish/woocommerce/notices/error.php
+goldish/woocommerce/notices/notice.php
+goldish/woocommerce/notices/success.php
+goldish/woocommerce/product-searchform.php version 3.3.0 is out of date. The core version is 7.0.1
+goldish/woocommerce/single-product/add-to-cart/grouped.php version 4.8.0 is out of date. The core version is 7.0.1
+goldish/woocommerce/single-product/add-to-cart/variable.php
+goldish/woocommerce/single-product/product-image.php
+goldish/woocommerce/single-product/rating.php
+goldish/woocommerce/single-product/related.php
+goldish/woocommerce/single-product/sale-flash.php
+goldish/woocommerce/single-product/short-description.php
+goldish/woocommerce/single-product/tabs/additional-information.php
+goldish/woocommerce/single-product/tabs/tabs.php
+goldish/woocommerce/single-product/title.php
+goldish/woocommerce/single-product/up-sells.php
+
+Outdated Templates: ❌
+					
+					
+						Learn how to update
+
+### Pimwick Plugins ###
+
+PW WooCommerce Gift Cards Pro: License key: PW-61cb4186548a6
+Result: success
+Cached: 2023-03-31
+
+
+### Klarna Payments Request Log ###
+
+2022-10-18 14:44:40: KP Create Session
+Response code: 400
+Response message: {"headers":[],"body":"{\n  \"error_code\" : \"BAD_VALUE\",\n  \"error_messages\" : [ \"Bad value: order_amount\" ],\n  \"correlation_id\" : \"bcfe3ff2-7fad-4d83-8ad2-8a0baab8a3bf\"\n}","response":{"code":400,"message":"Bad Request"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+Correlation ID:
+
+2022-10-18 14:44:17: KP Create Session
+Response code: 400
+Response message: {"headers":[],"body":"{\n  \"error_code\" : \"BAD_VALUE\",\n  \"error_messages\" : [ \"Bad value: order_amount\" ],\n  \"correlation_id\" : \"374bca9f-24f1-47e7-9b94-96bb3e668c93\"\n}","response":{"code":400,"message":"Bad Request"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+Correlation ID:
+
+2022-10-18 14:43:51: KP Create Session
+Response code: 400
+Response message: {"headers":[],"body":"{\n  \"error_code\" : \"BAD_VALUE\",\n  \"error_messages\" : [ \"Bad value: order_amount\" ],\n  \"correlation_id\" : \"a9f63e01-08fb-4714-a78d-1d5a8d9e3920\"\n}","response":{"code":400,"message":"Bad Request"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+Correlation ID:
+
+2022-10-18 14:43:48: KP Create Session
+Response code: 400
+Response message: {"headers":[],"body":"{\n  \"error_code\" : \"BAD_VALUE\",\n  \"error_messages\" : [ \"Bad value: order_amount\" ],\n  \"correlation_id\" : \"c5afe94f-bcc0-4565-93e2-a6f38666ef26\"\n}","response":{"code":400,"message":"Bad Request"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+Correlation ID:
+
+2022-10-18 10:38:28: KP Create Session
+Response code: 400
+Response message: {"headers":[],"body":"{\n  \"error_code\" : \"BAD_VALUE\",\n  \"error_messages\" : [ \"Bad value: order_amount\" ],\n  \"correlation_id\" : \"a3bb6e5f-a114-4f42-a29a-f57e6308f3be\"\n}","response":{"code":400,"message":"Bad Request"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+Correlation ID:
+
+2022-10-18 10:38:00: KP Create Session
+Response code: 400
+Response message: {"headers":[],"body":"{\n  \"error_code\" : \"BAD_VALUE\",\n  \"error_messages\" : [ \"Bad value: order_amount\" ],\n  \"correlation_id\" : \"2100f402-dbd8-4a25-b064-3de612538f12\"\n}","response":{"code":400,"message":"Bad Request"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+Correlation ID:
+
+2022-10-18 10:37:47: KP Create Session
+Response code: 400
+Response message: {"headers":[],"body":"{\n  \"error_code\" : \"BAD_VALUE\",\n  \"error_messages\" : [ \"Bad value: order_amount\" ],\n  \"correlation_id\" : \"2674513e-4f83-40fa-a66f-151d74210757\"\n}","response":{"code":400,"message":"Bad Request"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+Correlation ID:
+
+2022-10-18 10:37:25: KP Create Session
+Response code: 400
+Response message: {"headers":[],"body":"{\n  \"error_code\" : \"BAD_VALUE\",\n  \"error_messages\" : [ \"Bad value: order_amount\" ],\n  \"correlation_id\" : \"ef4ff306-5515-43b0-971c-9c9a1281f892\"\n}","response":{"code":400,"message":"Bad Request"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+Correlation ID:
+
+2022-10-18 10:37:23: KP Create Session
+Response code: 400
+Response message: {"headers":[],"body":"{\n  \"error_code\" : \"BAD_VALUE\",\n  \"error_messages\" : [ \"Bad value: order_amount\" ],\n  \"correlation_id\" : \"1fe8630d-cffd-431f-83ed-d43f03965d62\"\n}","response":{"code":400,"message":"Bad Request"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+Correlation ID:
+
+2022-10-13 14:45:15: KP Create Session
+Response code: 400
+Response message: {"headers":[],"body":"{\n  \"error_code\" : \"BAD_VALUE\",\n  \"error_messages\" : [ \"Bad value: order_amount\" ],\n  \"correlation_id\" : \"6b498d17-e903-4bf5-b026-f959a0f46904\"\n}","response":{"code":400,"message":"Bad Request"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+Correlation ID:
+
+2022-10-13 14:44:33: KP Create Session
+Response code: 400
+Response message: {"headers":[],"body":"{\n  \"error_code\" : \"BAD_VALUE\",\n  \"error_messages\" : [ \"Bad value: order_amount\" ],\n  \"correlation_id\" : \"6a4c7976-09d0-499e-a660-2ce18553dae1\"\n}","response":{"code":400,"message":"Bad Request"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+Correlation ID:
+
+2022-10-13 14:44:29: KP Create Session
+Response code: 400
+Response message: {"headers":[],"body":"{\n  \"error_code\" : \"BAD_VALUE\",\n  \"error_messages\" : [ \"Bad value: order_amount\" ],\n  \"correlation_id\" : \"2aa55ad7-3345-4292-b499-ab998349d923\"\n}","response":{"code":400,"message":"Bad Request"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+Correlation ID:
+
+2022-10-13 14:44:06: KP Create Session
+Response code: 400
+Response message: {"headers":[],"body":"{\n  \"error_code\" : \"BAD_VALUE\",\n  \"error_messages\" : [ \"Bad value: order_amount\" ],\n  \"correlation_id\" : \"99cf5ba8-d8ee-431e-8f9e-cd23258b51ab\"\n}","response":{"code":400,"message":"Bad Request"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+Correlation ID:
+
+2022-10-13 14:44:04: KP Create Session
+Response code: 400
+Response message: {"headers":[],"body":"{\n  \"error_code\" : \"BAD_VALUE\",\n  \"error_messages\" : [ \"Bad value: order_amount\" ],\n  \"correlation_id\" : \"96e63178-fbb8-440f-b901-ad4c9c3f42a6\"\n}","response":{"code":400,"message":"Bad Request"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+Correlation ID:
+
+2022-08-28 17:37:29: KP Create Session
+Response code: 400
+Response message: {"headers":[],"body":"{\n  \"error_code\" : \"BAD_VALUE\",\n  \"error_messages\" : [ \"Bad value: order_amount\" ],\n  \"correlation_id\" : \"fee65b5e-a6e6-4d24-9a93-04ebebf77924\"\n}","response":{"code":400,"message":"Bad Request"},"cookies":[],"filename":null,"http_response":{"data":null,"headers":null,"status":null}}
+Correlation ID:
+
+
+### Klarna Countries ###
+
+Production Countries: GB
+Test Countries: GB
+
+### Admin ###
+
+Enabled Features: activity-panels
+analytics
+coupons
+customer-effort-score-tracks
+import-products-task
+experimental-fashion-sample-products
+shipping-smart-defaults
+shipping-setting-tour
+homescreen
+marketing
+multichannel-marketing
+mobile-app-banner
+navigation
+onboarding
+onboarding-tasks
+remote-inbox-notifications
+remote-free-extensions
+payment-gateway-suggestions
+shipping-label-banner
+subscriptions
+store-alerts
+transient-notices
+woo-mobile-welcome
+wc-pay-promotion
+wc-pay-welcome-page
+
+Disabled Features: minified-js
+new-product-management-experience
+product-variation-management
+settings
+
+Daily Cron: ✔ Next scheduled: 2023-03-31 22:38:26 +00:00
+Options: ✔
+Notes: 59
+Onboarding: completed
+
+### Action Scheduler ###
+
+Canceled: 1
+Oldest: 2023-03-06 09:40:26 +0000
+Newest: 2023-03-06 09:40:26 +0000
+
+Complete: 8,573
+Oldest: 2023-02-28 10:24:55 +0000
+Newest: 2023-03-31 10:22:51 +0000
+
+Failed: 160
+Oldest: 2022-12-06 15:37:11 +0000
+Newest: 2023-01-25 13:11:02 +0000
+
+Pending: 4
+Oldest: 2023-03-31 10:23:51 +0000
+Newest: 2023-04-01 00:43:44 +0000
+
+
+### Status report information ###
+
+Generated at: 2023-03-31 10:23:27 +00:00
+`
+
+
+
+
+
